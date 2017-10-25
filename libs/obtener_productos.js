@@ -1,3 +1,4 @@
+const fs = require('fs')
 
 var getProductos = (db) => {
   return new Promise((resolve, reject) => {
@@ -6,6 +7,11 @@ var getProductos = (db) => {
       if(err) {
         reject(err)
       } else {
+        fs.writeFile('./test/productosData.json', JSON.stringify(result), (err) => {
+          if(err) {
+            console.log('error: ', err)
+          } 
+        })
         resolve(result)
       }
     })

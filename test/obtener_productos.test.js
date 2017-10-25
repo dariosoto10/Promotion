@@ -1,4 +1,5 @@
 const utils = require('../libs/obtener_productos.js')
+const utilsPr = require('../libs/proveedor_contenido.js')
 const config = require('../database/config')
 const expect = require('expect')
 const mysql = require('mysql')
