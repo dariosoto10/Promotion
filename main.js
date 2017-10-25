@@ -3,6 +3,8 @@ var config = require('./database/config')
 var productos = require('./libs/obtener_productos')
 var proveedor = require('./libs/proveedor_contenido')
 var actualizar = require('./libs/comprobar_actualizacion')
+var numero = require('./libs/obtener_numeros')
+var comprobados = require('./libs/numeros_comprobados')
 
 var db = mysql.createConnection(config)
 
@@ -17,10 +19,9 @@ setPromotion(db).then((doc) => {
 })
 
 async function setPromotion(db) {
-  var producto = await productos.getProductos(db)
-  var proveedores = await proveedor.getProveedores(db, producto)
-  var actualizados = await actualizar.getProducts(db, proveedores)
-  // console.log(actualizados)
-  // console.log(actualizados.length)
-  return actualizados
+  var producto           = await productos.getProductos(db)
+  var proveedores        = await proveedor.getProveedores(db, producto)
+  var actualizados       = await actualizar.getProducts(db, proveedores)
+  var numeros            = await numero.getNums(db, actualizados)
+  var numerosComprobados = await comprobados.getCount(db, numeros)
 }

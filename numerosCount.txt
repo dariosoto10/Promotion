@@ -1,0 +1,23 @@
+
+ SELECT * FROM insignia_suscripciones.notifications_control WHERE
+                recipient = '584124812326' AND product_id = '15197'; 
+ SELECT * FROM insignia_suscripciones.notifications_control WHERE
+                recipient = '584124278850' AND product_id = '19027'; 
+ SELECT * FROM insignia_suscripciones.notifications_control WHERE
+                recipient = '4145862474' AND product_id = '19041'; 
+ SELECT * FROM insignia_suscripciones.notifications_control WHERE
+                recipient = '4146883633' AND product_id = '19044'; 
+ SELECT * FROM insignia_suscripciones.notifications_control WHERE
+                recipient = '4246320730' AND product_id = '19047'; 
+ SELECT * FROM insignia_suscripciones.notifications_control WHERE
+                recipient = '4249405016' AND product_id = '19050'; 
+ SELECT * FROM insignia_suscripciones.notifications_control WHERE
+                recipient = '04146379754' AND product_id = '19050'; 
+ SELECT * FROM insignia_suscripciones.notifications_control WHERE
+                recipient = '04261335124' AND product_id = '24052'; 
+ SELECT * FROM insignia_suscripciones.notifications_control WHERE
+                recipient = '04267641869' AND product_id = '24052'; 
+ SELECT * FROM insignia_suscripciones.notifications_control WHERE
+                recipient = '04147431755' AND product_id = '27062'; 
+ SELECT * FROM insignia_suscripciones.notifications_control WHERE
+                recipient = '04140696291' AND product_id = '43311'; 

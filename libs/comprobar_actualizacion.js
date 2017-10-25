@@ -24,7 +24,6 @@ var getProducts = (db, array) => {
           console.log('error: ', err)
           } 
         })
-        console.log(result)
         resolve(result)
       }
     })

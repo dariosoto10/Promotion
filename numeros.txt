@@ -1,0 +1,1 @@
+SELECT product_id, id_cliente, group_concat(concat(prefix, recipient) SEPARATOR '@') as numeros FROM insignia_suscripciones.suscripcion WHERE product_id IN (43311, 3825, 27062, 24052, 15197, 19027, 19041, 19044, 19047, 19050) group by product_id

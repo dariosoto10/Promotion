@@ -1,7 +1,6 @@
 let fs = require('fs')
 
 var getProveedores = (db, array) => {
-  console.log(array)
   return new Promise((resolve, reject) => {
     let sql = "SELECT * FROM insignia_suscripciones.proveedor_de_contenido WHERE id_producto IN (?)"
     let sameSql = "SELECT * FROM insignia_suscripciones.proveedor_de_contenido WHERE id_producto IN ("
