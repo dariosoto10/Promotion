@@ -2,3 +2,10 @@ node_modules/
 package-lock.json
 test/productosData.json
 test/proveedorData.json
+test/numerosData.json
+test/numerosComprobadosData.json
+test/actualizacionData.json
+actualizacion.txt
+numeros.txt
+numerosCount.txt
+proveedor.txt

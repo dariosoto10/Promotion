@@ -1,0 +1,19 @@
+
+ SELECT count(*) count, id_producto, origen FROM sms.smsin WHERE origen = '4145862474'
+          AND id_producto = '19041' AND data_arrive BETWEEN '2011-08-30'
+          AND '2017-08-31'; 
+ SELECT count(*) count, id_producto, origen FROM sms.smsin WHERE origen = '4146883633'
+          AND id_producto = '19044' AND data_arrive BETWEEN '2011-08-30'
+          AND '2017-08-31'; 
+ SELECT count(*) count, id_producto, origen FROM sms.smsin WHERE origen = '4246320730'
+          AND id_producto = '19047' AND data_arrive BETWEEN '2011-08-30'
+          AND '2017-08-31'; 
+ SELECT count(*) count, id_producto, origen FROM sms.smsin WHERE origen = '4249405016'
+          AND id_producto = '19050' AND data_arrive BETWEEN '2011-08-30'
+          AND '2017-08-31'; 
+ SELECT count(*) count, id_producto, origen FROM sms.smsin WHERE origen = '04146379754'
+          AND id_producto = '19050' AND data_arrive BETWEEN '2011-08-30'
+          AND '2017-08-31'; 
+ SELECT count(*) count, id_producto, origen FROM sms.smsin WHERE origen = '04147431755'
+          AND id_producto = '27062' AND data_arrive BETWEEN '2011-08-30'
+          AND '2017-08-31'; 
