@@ -1,0 +1,26 @@
+{
+  "name": "promociones",
+  "version": "1.0.0",
+  "description": "Creacion de promociones",
+  "main": "main.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha ./test/**/*.test.js",
+    "test-watch": "nodemon --exec npm test"
+  },
+  "keywords": [
+    "promociones"
+  ],
+  "author": "Dario Alejandro Soto",
+  "license": "ISC",
+  "dependencies": {
+    "mysql": "^2.15.0",
+    "nodemon": "^1.10.2"
+  },
+  "devDependencies": {
+    "expect": "^1.20.2",
+    "mocha": "^3.0.0"
+  }
+}
