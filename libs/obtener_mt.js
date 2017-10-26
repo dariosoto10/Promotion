@@ -20,11 +20,12 @@ let sql = ''
       if(err) reject(err)
       else {
         var data = []
-        result.map(element => {
+        result.map((element, index) => {
           if(element[0].count != 0) {
             let a = _.find(array, { 'recipient': element[0].origen, 'product_id': element[0].id_producto });
-            console.log(array)
-            data.push(element)
+            if(element[0].origen == array[index][0].recipient) {
+              if(element[0].count > array[index][0].notifications_r) data.push(element)
+            }
           }
         })
         fs.writeFile('./test/mtData.json', JSON.stringify(data), (err) => {

@@ -1,33 +1,33 @@
 
  SELECT * FROM analisis.r_multiple WHERE id_producto = '43311'
-                     AND fecha BETWEEN '2012-10-25' AND '2017-10-25' GROUP BY id_producto; 
+                     AND fecha BETWEEN '2012-10-25' AND '2017-10-26' GROUP BY id_producto; 
  SELECT * FROM analisis.r_multiple WHERE id_producto = '24861'
-                     AND fecha BETWEEN '2012-10-25' AND '2017-10-25' GROUP BY id_producto; 
+                     AND fecha BETWEEN '2012-10-25' AND '2017-10-26' GROUP BY id_producto; 
  SELECT * FROM analisis.r_multiple WHERE id_producto = '16583'
-                     AND fecha BETWEEN '2012-10-25' AND '2017-10-25' GROUP BY id_producto; 
+                     AND fecha BETWEEN '2012-10-25' AND '2017-10-26' GROUP BY id_producto; 
  SELECT * FROM analisis.r_multiple WHERE id_producto = '39767'
-                     AND fecha BETWEEN '2012-10-25' AND '2017-10-25' GROUP BY id_producto; 
+                     AND fecha BETWEEN '2012-10-25' AND '2017-10-26' GROUP BY id_producto; 
  SELECT * FROM analisis.r_multiple WHERE id_producto = '977'
-                     AND fecha BETWEEN '2012-10-25' AND '2017-10-25' GROUP BY id_producto; 
+                     AND fecha BETWEEN '2012-10-25' AND '2017-10-26' GROUP BY id_producto; 
  SELECT * FROM analisis.r_multiple WHERE id_producto = '984'
-                     AND fecha BETWEEN '2012-10-25' AND '2017-10-25' GROUP BY id_producto; 
+                     AND fecha BETWEEN '2012-10-25' AND '2017-10-26' GROUP BY id_producto; 
  SELECT * FROM analisis.r_multiple WHERE id_producto = '19698'
-                     AND fecha BETWEEN '2012-10-25' AND '2017-10-25' GROUP BY id_producto; 
+                     AND fecha BETWEEN '2012-10-25' AND '2017-10-26' GROUP BY id_producto; 
  SELECT * FROM analisis.r_multiple WHERE id_producto = '3825'
-                     AND fecha BETWEEN '2012-10-25' AND '2017-10-25' GROUP BY id_producto; 
+                     AND fecha BETWEEN '2012-10-25' AND '2017-10-26' GROUP BY id_producto; 
  SELECT * FROM analisis.r_multiple WHERE id_producto = '27062'
-                     AND fecha BETWEEN '2012-10-25' AND '2017-10-25' GROUP BY id_producto; 
+                     AND fecha BETWEEN '2012-10-25' AND '2017-10-26' GROUP BY id_producto; 
  SELECT * FROM analisis.r_multiple WHERE id_producto = '24052'
-                     AND fecha BETWEEN '2012-10-25' AND '2017-10-25' GROUP BY id_producto; 
+                     AND fecha BETWEEN '2012-10-25' AND '2017-10-26' GROUP BY id_producto; 
  SELECT * FROM analisis.r_multiple WHERE id_producto = '15197'
-                     AND fecha BETWEEN '2012-10-25' AND '2017-10-25' GROUP BY id_producto; 
+                     AND fecha BETWEEN '2012-10-25' AND '2017-10-26' GROUP BY id_producto; 
  SELECT * FROM analisis.r_multiple WHERE id_producto = '19027'
-                     AND fecha BETWEEN '2012-10-25' AND '2017-10-25' GROUP BY id_producto; 
+                     AND fecha BETWEEN '2012-10-25' AND '2017-10-26' GROUP BY id_producto; 
  SELECT * FROM analisis.r_multiple WHERE id_producto = '19041'
-                     AND fecha BETWEEN '2012-10-25' AND '2017-10-25' GROUP BY id_producto; 
+                     AND fecha BETWEEN '2012-10-25' AND '2017-10-26' GROUP BY id_producto; 
  SELECT * FROM analisis.r_multiple WHERE id_producto = '19044'
-                     AND fecha BETWEEN '2012-10-25' AND '2017-10-25' GROUP BY id_producto; 
+                     AND fecha BETWEEN '2012-10-25' AND '2017-10-26' GROUP BY id_producto; 
  SELECT * FROM analisis.r_multiple WHERE id_producto = '19047'
-                     AND fecha BETWEEN '2012-10-25' AND '2017-10-25' GROUP BY id_producto; 
+                     AND fecha BETWEEN '2012-10-25' AND '2017-10-26' GROUP BY id_producto; 
  SELECT * FROM analisis.r_multiple WHERE id_producto = '19050'
-                     AND fecha BETWEEN '2012-10-25' AND '2017-10-25' GROUP BY id_producto
+                     AND fecha BETWEEN '2012-10-25' AND '2017-10-26' GROUP BY id_producto
